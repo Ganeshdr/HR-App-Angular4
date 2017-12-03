@@ -235,13 +235,13 @@ module.exports = function(options) {
             proxy: {
                 '/api': {
                     logLevel: "debug",
-                    target: 'http://localhost:5252',
+                    target: 'https://hr-app-flask-api-heroku.herokuapp.com/',
                     secure: false,
                     changeOrigin: true,
                 },
                 '/oauth': {
                     logLevel: "debug",
-                    target: 'http://localhost:5252',
+                    target: 'https://hr-app-flask-api-heroku.herokuapp.com/',
                     secure: false,
                     changeOrigin: true,
                 }
